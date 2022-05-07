@@ -1,4 +1,4 @@
-Construindo meu priemiro portifólio.
+Construindo meu primeiro portifólio.
 
 Seu Portfólio Web deve ter as seguintes informações:
 Seu nome completo;
