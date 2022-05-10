@@ -4,63 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portifólio</title>
-    <style>
-      h1 {
-        text-align: center;
-        background-color: rgb(9, 148, 39);
-      }
-      p {
-        font-family: fantasy;
-        text-align: center;
-      }
-      body {
-        background-color: rgb(255, 255, 255);
-      }
-
-      div {
-        text-align: center;
-      }
-      h2 {
-        font-style: normal;
-        text-align: center;
-        background-color: rgb(9, 148, 39);
-      }
-      .redes-sociais{
-        align-items: center;
-    }
- a {
-   background-color:rgb(9, 148, 39);
-   color: white;
-   text-decoration: none;
- }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portifólio</title> 
   </head>
   <body>
-    <h1>Caique Antonio da Silva</h1>
-   <p>
-<a href="#minhadescricao">Sobre mim</a>
-<a href="#habilidades">Minhas Habilidades</a>
-<a href="#curiosidades">Curiosidades Sobre Mim</a>
-<a href="#redes-sociais">Minhas Redes Sociais</a>
-</p>
-    <div>
-      <img src="Eu.jpeg" alt="Foto Caique Antonio da Silva" width="500" />
+    <div class="sumario">
+    <p>
+      <a href="#sobre-mim">Sobre mim</a>
+      <a href="#habilidades">Minhas Habilidades</a>
+      <a href="#curiosidades">Curiosidades Sobre Mim</a>
+      <a href="#redes">Minhas Redes Sociais</a>
+      </p>
     </div>
-    <h2> Sobre Mim</h2>
-    <p id="minhadescricao">
-      Meu chamo Caique Antonio da Silva, nascido em Pancas, no interior do
+    <div><h1>Caique Antonio da Silva</h1> 
+ 
+     <div class="descricao"><img src="Eu.jpeg" alt="Foto Caique Antonio da Silva" width="300px" id="minha-foto"/>
+    <h2 id="sobre-mim"> Sobre Mim</h2>
+    <p>
+      Me chamo Caique Antonio da Silva, nascido em Pancas, no interior do
       Espírito Santo, mas hoje resido em Colatina, que também se localiza no
       interior do Espírito Santo. <p> Cursei até o sexto período de Engenharia
       Mecânica, e nesse tempo de curso, tive minha primeira experiência
       profissional como professor de Física e Matemática na escola EEEFM
       Sebastiana Grilo.</p>
       <p>Trabalhei com Rochas Ornamentais por mais de 6 anos, tendo contato com pessoas de vários países.</p>
-      <p>Estou em transição de carreira, fazendo o curso de desenvolvimento web da Trybe. Sempre tive uma gande familiaridade com tecnologia, o que tenho certeza que irá ajudar a me tornar um desenvolvedor full-stack completo.
+      <p>Estou em transição de carreira, fazendo o curso de desenvolvimento web da Trybe. Sempre tive uma grande familiaridade com tecnologia, o que tenho certeza que irá ajudar a me tornar um desenvolvedor full-stack completo.
 
       </p>
     </p>
+  </div>
+</div>
+  
     <h2 id="habilidades">Minhas Habilidades </h2>
+    <ul>
     <li>Comunicativo</li>
     <li>Experiência com Rochas Ormamentais.</li>
     <li>Experiência com vendas.</li>
@@ -68,16 +44,17 @@
     <li>Conhecimento básico em CSS</li>
     <li>Conhecimento básico em JavaScript.</li>
     <li>Inglês intermediário.</li>
-
+  </ul>
     <h2 id="curiosidades">Curiosidades Sobre Mim</h2>
+    <ul>
     <li>Sou casado a mais de 3 anos com uma esposa perfeita pra mim =)</li>
     <li>Amo praticar esportes radicais</li>
     <li>Gosto de jogos online</li>
     <li>Eu e minha esposa amamos viajar</li>
     <li>Me tornarei papai em alguns mêses s2</li>
-  
-    <h2>Minhas Redes Sociais</h2> 
-    <div id="redes-sociais">
+  </ul>
+    <h2 id="redes">Minhas Redes Sociais</h2> 
+    <div class="redes-sociais">
     <a href="https://www.facebook.com/caiquesilva12"
         ><img src="data:image/png;base64,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" width="50" height="50" alt="facebook"></a
       >
